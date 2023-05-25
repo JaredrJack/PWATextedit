@@ -32,7 +32,7 @@ export const getDb = async () => {
   const request = store.get(1);
   const result = await request;
  console.log(" data retrieved from the database", result.value)
- console.log("daa not found in the database");
+ console.log("data not found in the database");
 
  return result?.value;
 };
